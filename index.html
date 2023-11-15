@@ -7,7 +7,42 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+
+  <header>
+      <div id="result">Your Result</div>
+      <div id="num">
+        <div class="large">76</div>
+        <div class="small">of 100</div>
+        </div>
+      <div class="greet">Greet</div>
+      <div class="text">    
+        Your performance exceed 65% of the people conducting the test here!
+      </div>
+  </header>
+
+
+
+  <div id="summary">     
+      <ul>
+        <li><span>Reaction</span>
+          <b>80</b>
+          / 100</li>
+        <li>Memory
+          <b>92</b>
+          / 100</li>
+        <li>Verbal
+          <b>61</b>
+          / 100</li>
+        <li>Visual
+          <b>73</b>
+          / 100</li>
+      </ul>      
+  </div>
+
+  <form action="#">
+    <button id="continue-button" onclick="continueClicked()">Continue</button>
+  </form>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
