@@ -99,7 +99,42 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    list-style: none;
   }
+
+  #summary li {
+    width: 19.6875rem;
+    height: 3.5rem;
+    padding: 1rem 0;
+    margin: 1rem;
+  }
+
+  #summary li.red span  {
+    color: var(--Red, #F55);
+  }
+  #summary li.red {
+    border-radius: 0.75rem;
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+  }
+
+  #summary li.orange {
+    color: var(--Yellow, #FFB21E);
+    border-radius: 0.75rem;
+    background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+  }
+
+  #summary li.green {
+    color: var(--Green, #00BB8F);
+    border-radius: 0.75rem;
+    background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+  }
+
+  #summary li.blue {
+    color: var(--Blue, #1125D6);
+    border-radius: 0.75rem;
+    background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+  }
+
 
   button {
     border-radius: 8rem;
